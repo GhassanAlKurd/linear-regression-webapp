@@ -1,124 +1,122 @@
-🔥 Linear Regression from Scratch (Interactive Web App)
+# 🔥 Linear Regression from Scratch (Interactive Web App)
 
-An end-to-end implementation of linear regression built entirely from scratch, without using scikit-learn for training. The project includes:
+An end-to-end implementation of **linear regression built entirely from scratch**, without using scikit-learn for training.  
+Includes:
 
-A full gradient descent optimizer
+- A full gradient descent optimizer  
+- Feature scaling  
+- Residual analysis  
+- An interactive **Streamlit web app** for visualization  
+- A fully deployed version on Streamlit Cloud  
 
-Feature scaling
+This project is perfect for learning how linear regression actually works under the hood — beyond the black-box of machine learning libraries.
 
-Residual analysis
+---
 
-An interactive Streamlit web app for visualization
+## 🚀 Features
 
-A fully deployed app on Streamlit Cloud
+### 🧠 Core Algorithm
+- Implements gradient descent manually (no scikit-learn training)
+- Train on data directly from `data.csv`
+- Includes:
+  - Parameter updates  
+  - Error curves  
+  - Convergence tracking  
 
-This project is ideal for learning how linear regression actually works under the hood — beyond the black box of machine-learning libraries.
+### 📊 Visualizations
+- Scatter plot of original data  
+- Best-fit regression line  
+- Regression line (based on learned slope/intercept)  
+- Error curve (MSE vs. iterations)  
+- Residuals plot  
+- Correlation heatmap  
 
-📊 Features
-🛠 Core Algorithm
+### 🌐 Web App (Frontend)
+- Built with **Streamlit**
+- Clean sidebar controls for:
+  - Learning rate  
+  - Training iterations  
+- Realtime retraining on every update  
+- Cloud-hosted version available via shareable URL  
 
-Implements gradient descent manually (no sklearn training)
+---
 
-Trains on data from data.csv (two columns: x, y)
+## 🌍 Live Demo
 
-Includes cost function, parameter updates, and convergence tracking
+👉 **Web App:**  
+https://linear-regression-webapp-gxx6dqhmhdcnhdsvwgjcwva9x.streamlit.app/
 
-📈 Visualizations
+---
 
-The app provides multiple interactive visual outputs:
+## 🗂️ Project Structure
 
-Scatter plot of original data
-
-Regression line (based on learned slope/intercept)
-
-Error curve (MSE vs. iterations)
-
-Residual plot to evaluate model fit
-
-Correlation heatmap
-
-User prediction tool (enter X → get predicted Y)
-
-🌐 Web App (Streamlit)
-
-Fully interactive sliders for learning rate & iterations
-
-Real-time model retraining
-
-Visual feedback for every update
-
-Cloud-hosted version available via shareable URL
-
-🚀 Live Demo
-
-👉 Streamlit App:
-https://linear-regression-webapp-gxx6dmqhmdhcswgjcwa9x.streamlit.app/
-
-📂 Project Structure
 Linear_Regression_Project/
-│── app.py                 # Streamlit web app
-│── linear_regression.py   # Gradient descent + math logic
-│── data.csv               # Raw dataset
-│── data_clean.csv         # Cleaned dataset
+│── app.py # Streamlit web app
+│── linear_regression.py # Gradient descent + math logic
+│── data.csv # Raw dataset
+│── data_clean.csv # Cleaned dataset (optional)
 │── generate_clean_data.py # Data cleaning script
-│── requirements.txt       # Dependencies
-│── README.md              # Project documentation
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
 
-🧠 How the Algorithm Works
+yaml
+Copy code
 
-Initialize parameters
+---
 
-Intercept b = 0
+## 📘 How the Algorithm Works
 
-Weight(s) w = 0
+### 🧮 Initialization
+- `b = 0` (intercept)  
+- `w = 0` (weight/slope)  
 
-Scale features (Z-score normalization)
+### 🔄 Training Loop
+1. Scale features (Z-score normalization)  
+2. Run gradient descent  
+3. Compute predictions  
+4. Update parameters  
+5. Track error per iteration  
 
-Run gradient descent
+### 📈 Metrics
+- Final model parameters  
+- R² score  
+- Residuals  
+- MSE trend  
+- Comparison with scikit-learn model  
 
-Compute predictions
+---
 
-Compute gradients
+## 🛠️ How to Run Locally
 
-Update parameter values
+### **Option 1 — Recommended**
 
-Track error per iteration
-
-Evaluate model
-
-R² score
-
-Residuals
-
-Visualizations
-
-Compare with scikit-learn
-
-After training from scratch, the app also trains a real sklearn model
-
-Outputs both sets of results for comparison
-
-🖥️ Run Locally
-1. Create & activate virtual environment
+```bash
 python3.11 -m venv .venv
-source .venv/bin/activate      # macOS / Linux
+source .venv/bin/activate       # macOS / Linux
 # OR
-.\.venv\Scripts\activate       # Windows
+.\.venv\Scripts\activate        # Windows
 
-2. Install dependencies
 pip install -r requirements.txt
-
-3. Run Streamlit app
 streamlit run app.py
+🧹 Environment Notes
+Python 3.11 recommended
 
-🧩 Tech Used
+Streamlit + Matplotlib + NumPy + Pandas
 
-Python 3.11
+Streamlit Cloud handles deployment automatically
 
-NumPy — vectorized math
+⭐ Future Improvements
+Add multi-feature (multivariate) regression
 
-Matplotlib / Seaborn — visualizations
+Add polynomial regression option
 
-Streamlit — interactive UI
+Add downloadable prediction reports
 
-scikit-learn — baseline comparison model
+Add dataset upload option
+
+Add real-time dynamic charts
+
+👤 Author
+Ghassan Al-Kurd
+Linear Regression Web App (Scratch Implementation)
+University of Wisconsin–Eau Claire
