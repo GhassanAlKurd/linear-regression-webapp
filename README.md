@@ -1,6 +1,7 @@
 # 🔥 Linear Regression from Scratch (Interactive Web App)
 
-An end-to-end implementation of **linear regression built entirely from scratch**, without using scikit-learn for training.  
+An end-to-end implementation of **linear regression built entirely from scratch**, 
+
 Includes:
 
 - A full gradient descent optimizer  
@@ -9,7 +10,7 @@ Includes:
 - An interactive **Streamlit web app** for visualization  
 - A fully deployed version on Streamlit Cloud  
 
-This project is perfect for learning how linear regression actually works under the hood — beyond the black-box of machine learning libraries.
+This project is perfect for learning how linear regression actually works 
 
 ---
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -23,7 +24,7 @@ This project is perfect for learning how linear regression actually works under 
 ## 🚀 Features
 
 ### 🧠 Core Algorithm
-- Implements gradient descent manually (no scikit-learn training)
+- Implements gradient descent manually 
 - Train on data directly from `data.csv`
 - Includes:
   - Parameter updates  
