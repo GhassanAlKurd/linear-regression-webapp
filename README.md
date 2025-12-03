@@ -1,3 +1,13 @@
+![App Preview](preview.png)
+
+
+
+---
+
+
+
+
+
 # 🔥 Linear Regression from Scratch (Interactive Web App)
 
 An end-to-end implementation of **linear regression built entirely from scratch**, 
