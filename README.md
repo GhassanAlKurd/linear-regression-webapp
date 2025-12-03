@@ -98,7 +98,7 @@ Linear_Regression_Project/
 Software Engineering & Finance Student  
 
 - GitHub: [GhassanAlKurd](https://github.com/GhassanAlKurd)  
-- LinkedIn: https://www.linkedin.com/in/ghassanal-kurd/  
+- LinkedIn: https://www.linkedin.com/in/ghassanalkurd/  
 - Email: alkurdgh2333@uwec.edu
 
 ---
