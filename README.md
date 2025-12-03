@@ -86,37 +86,5 @@ Copy code
 
 ---
 
-## 🛠️ How to Run Locally
 
-### **Option 1 — Recommended**
 
-```bash
-python3.11 -m venv .venv
-source .venv/bin/activate       # macOS / Linux
-# OR
-.\.venv\Scripts\activate        # Windows
-
-pip install -r requirements.txt
-streamlit run app.py
-🧹 Environment Notes
-Python 3.11 recommended
-
-Streamlit + Matplotlib + NumPy + Pandas
-
-Streamlit Cloud handles deployment automatically
-
-⭐ Future Improvements
-Add multi-feature (multivariate) regression
-
-Add polynomial regression option
-
-Add downloadable prediction reports
-
-Add dataset upload option
-
-Add real-time dynamic charts
-
-👤 Author
-Ghassan Al-Kurd
-Linear Regression Web App (Scratch Implementation)
-University of Wisconsin–Eau Claire
