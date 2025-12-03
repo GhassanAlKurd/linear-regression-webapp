@@ -12,6 +12,13 @@ Includes:
 This project is perfect for learning how linear regression actually works under the hood — beyond the black-box of machine learning libraries.
 
 ---
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Cloud-red)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-blue)
+![Status](https://img.shields.io/badge/Status-Deployed-success)
+
+
+---
 
 ## 🚀 Features
 
@@ -45,6 +52,16 @@ This project is perfect for learning how linear regression actually works under 
 
 👉 **Web App:**  
 https://linear-regression-webapp-gxx6dqhmhcdhswvgjcwa9x.streamlit.app
+
+---
+
+
+## 📸 App Preview
+
+![App Screenshot](https://raw.githubusercontent.com/GhassanAlKurd/linear-regression-webapp/main/screenshot.png)
+
+
+
 
 ---
 
