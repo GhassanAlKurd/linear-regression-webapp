@@ -44,7 +44,7 @@ This project is perfect for learning how linear regression actually works under 
 ## 🌍 Live Demo
 
 👉 **Web App:**  
-https://linear-regression-webapp-gxx6dqhmhcdhswvgjcwa9x.streamlit.app/
+https://linear-regression-webapp-gxx6dqhmhcdhswvgjcwa9x.streamlit.app
 
 ---
 
