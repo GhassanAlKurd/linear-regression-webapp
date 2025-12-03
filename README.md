@@ -51,16 +51,13 @@ https://linear-regression-webapp-gxx6dqhmhdcnhdsvwgjcwva9x.streamlit.app/
 ## 🗂️ Project Structure
 
 Linear_Regression_Project/
-│── app.py # Streamlit web app
-│── linear_regression.py # Gradient descent + math logic
-│── data.csv # Raw dataset
-│── data_clean.csv # Cleaned dataset (optional)
-│── generate_clean_data.py # Data cleaning script
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-
-yaml
-Copy code
+│── app.py                 # Streamlit web app  
+│── linear_regression.py   # Gradient descent + math logic  
+│── data.csv               # Raw dataset  
+│── data_clean.csv         # Cleaned dataset (optional)  
+│── generate_clean_data.py # Data cleaning script  
+│── requirements.txt       # Dependencies  
+│── README.md              # Project documentation
 
 ---
 
