@@ -55,16 +55,6 @@ https://linear-regression-webapp-gxx6dqhmhcdhswvgjcwa9x.streamlit.app
 
 ---
 
-
-## 📸 App Preview
-
-![App Screenshot](https://raw.githubusercontent.com/GhassanAlKurd/linear-regression-webapp/main/screenshot.png)
-
-
-
-
----
-
 ## 🗂️ Project Structure
 
 Linear_Regression_Project/
@@ -101,4 +91,13 @@ Linear_Regression_Project/
 ---
 
 
+## 👤 Author
 
+**Ghassan Al-Kurd**  
+Software Engineering & Finance Student  
+
+- GitHub: [GhassanAlKurd](https://github.com/GhassanAlKurd)  
+- LinkedIn: https://www.linkedin.com/in/ghassanal-kurd/  
+- Email: alkurdgh2333@uwec.edu
+
+---
